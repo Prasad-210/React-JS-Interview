@@ -8,7 +8,7 @@ export default function SimpleValidationForm() {
     confirmPassword: "",
   });
 
-  //
+  //''
   const [errors, setErrors] = useState({});
 
   // Handle input changes

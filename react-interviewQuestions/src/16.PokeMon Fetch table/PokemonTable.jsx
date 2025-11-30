@@ -18,9 +18,7 @@ const PokemonTable = () => {
             const details = await res.json();
             return {
               name: pokemon.name,
-              abilities: details.abilities.map(
-                (ab) => ab.ability.name
-              ), // extract ability names
+              abilities: details.abilities.map((ab) => ab.ability.name), // extract ability names
             };
           })
         );

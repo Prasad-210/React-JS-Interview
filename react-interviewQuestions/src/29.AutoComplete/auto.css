@@ -1,0 +1,45 @@
+.auto-container {
+  width: 320px;
+  margin: 40px auto;
+  font-family: Arial;
+  position: relative;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+
+.suggestion-box {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  max-height: 180px;
+  overflow-y: auto;
+  background: white;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.suggestion-box li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.suggestion-box li:hover {
+  background-color: #f1f1f1;
+}
+
+.no-result {
+  margin-top: 4px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}

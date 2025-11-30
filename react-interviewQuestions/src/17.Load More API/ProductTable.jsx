@@ -5,7 +5,7 @@ const ProductTable = () => {
   const [visualCOunt, setVisualCount] = useState(5);
   const [isLoading, setIsloading] = useState(true);
 
-  console.log(products);
+  // console.log(products);
 
   useEffect(() => {
     const fetchProductsData = async () => {
@@ -31,6 +31,7 @@ const ProductTable = () => {
   const handleLoadMore = () => {
     setVisualCount((prev) => prev + 5);
   };
+  
   return (
     <div style={{ padding: "20px" }}>
       <h2>ProductTable</h2>

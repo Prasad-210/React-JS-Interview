@@ -8,8 +8,8 @@ import React, { useState, useRef } from "react";
 // ✅ You can achieve this with useRef — without re-rendering the component or managing extra state.
 
 const ScrolltoSectionExample = () => {
-  const homeRef = useState();
-  const aboutUsRef = useState();
+  const homeRef = useRef();
+  const aboutUsRef = useRef();
   const contactRef = useRef();
 
   const scrollToSection = (elementRef) => {

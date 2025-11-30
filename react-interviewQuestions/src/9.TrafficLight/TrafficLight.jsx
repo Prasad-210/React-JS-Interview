@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function TrafficLight() {
+  
   const lights = ["red", "green", "yellow"];
 
   const [currentActive, setCurrentActive] = useState("red");

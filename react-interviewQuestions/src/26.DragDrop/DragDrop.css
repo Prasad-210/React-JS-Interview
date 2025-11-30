@@ -1,0 +1,42 @@
+.dragdrop-container {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.box-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.drop-box {
+  width: 45%;
+  min-height: 250px;
+  border: 2px dashed #999;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fafafa;
+  transition: 0.3s ease;
+}
+.drop-box:hover {
+  background-color: #f0f8ff;
+}
+
+.draggable-item {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin: 8px 0;
+  cursor: grab;
+  user-select: none;
+}
+
+.empty {
+  color: #aaa;
+  font-style: italic;
+  margin-top: 10px;
+  
+}

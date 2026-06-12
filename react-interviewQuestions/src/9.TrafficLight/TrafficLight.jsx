@@ -70,8 +70,7 @@ export default function TrafficLight() {
 
       <button
         onClick={() => {
-          const nextActiveIndex =
-            (lights.indexOf(currentActive) + 1) % lights.length;
+          const nextActiveIndex = (lights.indexOf(currentActive) + 1) % lights.length;
           setCurrentActive(lights[nextActiveIndex]);
         }}
       >

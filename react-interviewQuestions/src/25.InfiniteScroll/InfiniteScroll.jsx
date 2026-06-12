@@ -32,8 +32,8 @@ export default function InfiniteScroll() {
   }, [page]);
 
   // Intersection Observer — triggers when loader is visible
-  const handleObserver = useCallback(
-    (entries) => {
+  const handleObserver = useCallback((entries) => {
+    
       const target = entries[0];
       if (target.isIntersecting && hasMore && !loading) {
         setPage((prev) => prev + 1);

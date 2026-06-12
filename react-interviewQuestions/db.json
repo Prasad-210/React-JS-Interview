@@ -1,0 +1,84 @@
+{
+  "coins": [
+    {
+      "id": 1,
+      "name": "Bitcoin",
+      "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
+      "price": 109234,
+      "marketCap": 2150000000000,
+      "change24h": 2.45
+    },
+    {
+      "id": 2,
+      "name": "Ethereum",
+      "image": "https://cryptologos.cc/logos/ethereum-eth-logo.png",
+      "price": 5234,
+      "marketCap": 630000000000,
+      "change24h": -1.23
+    },
+    {
+      "id": 3,
+      "name": "Solana",
+      "image": "https://cryptologos.cc/logos/solana-sol-logo.png",
+      "price": 182,
+      "marketCap": 85000000000,
+      "change24h": 5.12
+    },
+    {
+      "id": 4,
+      "name": "BNB",
+      "image": "https://cryptologos.cc/logos/bnb-bnb-logo.png",
+      "price": 712,
+      "marketCap": 104000000000,
+      "change24h": 1.15
+    },
+    {
+      "id": 5,
+      "name": "XRP",
+      "image": "https://cryptologos.cc/logos/xrp-xrp-logo.png",
+      "price": 2.34,
+      "marketCap": 135000000000,
+      "change24h": -0.92
+    },
+    {
+      "id": 6,
+      "name": "Cardano",
+      "image": "https://cryptologos.cc/logos/cardano-ada-logo.png",
+      "price": 0.91,
+      "marketCap": 32000000000,
+      "change24h": 3.56
+    },
+    {
+      "id": 7,
+      "name": "Dogecoin",
+      "image": "https://cryptologos.cc/logos/dogecoin-doge-logo.png",
+      "price": 0.38,
+      "marketCap": 55000000000,
+      "change24h": 7.21
+    },
+    {
+      "id": 8,
+      "name": "Polkadot",
+      "image": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png",
+      "price": 9.12,
+      "marketCap": 14000000000,
+      "change24h": -2.18
+    },
+    {
+      "id": 9,
+      "name": "Avalanche",
+      "image": "https://cryptologos.cc/logos/avalanche-avax-logo.png",
+      "price": 41.6,
+      "marketCap": 18000000000,
+      "change24h": 4.72
+    },
+    {
+      "id": 10,
+      "name": "Chainlink",
+      "image": "https://cryptologos.cc/logos/chainlink-link-logo.png",
+      "price": 28.2,
+      "marketCap": 16500000000,
+      "change24h": 1.82
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+.star-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.star-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.star {
+  font-size: 35px;
+  color: #ccc;
+  transition: color 0.2s ease;
+}
+
+.star.active {
+  color: #f4b400; /* Gold color */
+}
+
+/* HALF STAR */
+.star.half {
+  position: absolute;
+  width: 50%;
+  overflow: hidden;
+  left: 0;
+}
+
+.star.full {
+  position: relative;
+}
